@@ -10,4 +10,4 @@ Expected Output:
 - Initially console should be clear
 - On button press, console and page should show "hello" text
 
-Hello.js generated using command: pulp build --to hello.js
+
