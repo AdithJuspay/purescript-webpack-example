@@ -2,17 +2,19 @@
   "name": "purescript-hello",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server --entry ./hello.js --output-filename ./dist/bundle.js"
+    "build": "webpack-dev-server --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "purescript": "^0.13.8",
+    "purescript-psa": "^0.8.0",
+    "purs-loader": "^3.7.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

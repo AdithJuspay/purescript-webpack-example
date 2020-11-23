@@ -1,4 +1,4 @@
-import {PS} from "./hello.js"
+const purescript = require("./src/Main.purs")
 
 
 var para = document.getElementById("hello");
@@ -6,7 +6,7 @@ var button = document.getElementById("sh");
 
 function showhello() {
     para.style.display = 'block';
-    PS["Main"].main();
+    purescript.main();
 }
 
 button.addEventListener("click", showhello);
