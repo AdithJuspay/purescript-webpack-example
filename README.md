@@ -6,7 +6,7 @@ To run:
 - "npm run build"
 
 Expected Output:
-- html page running on http.
+- html page running on http://localhost:8080/
 - Initially console should be clear
 - On button press, console and page should show "hello" text
 
